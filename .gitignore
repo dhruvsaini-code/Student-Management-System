@@ -1,0 +1,28 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite Databases
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Application Data & Assets
+data/logs/
+data/backups/
+data/reports/
+data/charts/
+exported_students.csv
+students_import.csv
+
+# Environments and secrets
+.env
+.venv
+env/
+venv/
+ENV/
+.idea/
+.vscode/
+.DS_Store
